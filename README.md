@@ -1,15 +1,18 @@
 ## Case Study #3 - Foodie-Fi /Danny MA · May 18, 2021
 
-
-
-
 Introduction Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows! Danny finds a few smart friends to launch his new startup Foodie-Fi in 2020 and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world! Danny created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. This case study focuses on using subscription style digital data to answer important business questions.
 
 Available Data Danny has shared the data design for Foodie-Fi and also short descriptions on each of the database tables - our case study focuses on only 2 tables but there will be a challenge to create a new table for the Foodie-Fi team. All datasets exist within the foodie_fi database schema - be sure to include this reference within your SQL scripts as you start exploring the data and answering the case study questions.
 
+<img width="620" height="267" alt="9_B" src="https://github.com/user-attachments/assets/09290031-aae3-4a6a-bd55-9106116c8b46" />
+
+
 Entity Relationship Diagram Table 1: plans Customers can choose which plans to join Foodie-Fi when they first sign up. Basic plan customers have limited access and can only stream their videos and is only available monthly at $9.90 Pro plan customers have no watch time limits and are able to download videos for offline viewing. Pro plans start at $19.90 a month or $199 for an annual subscription. Customers can sign up to an initial 7 day free trial will automatically continue with the pro monthly subscription plan unless they cancel, downgrade to basic or upgrade to an annual pro plan at any point during the trial. When customers cancel their Foodie-Fi service - they will have a churn plan record with a null price but their plan will continue until the end of the billing period.
 
 Table 2: subscriptions Customer subscriptions show the exact date where their specific plan_id starts.- If customers downgrade from a pro plan or cancel their subscription - the higher plan will remain in place until the period is over - the start_date in the subscriptions table will reflect the date that the actual plan changes. When customers upgrade their account from a basic plan to a pro or annual pro plan - the higher plan will take effect straightaway. When customers churn - they will keep their access until the end of their current billing period but the start_date will be technically the day they decided to cancel their service.
+
+<img width="634" height="192" alt="B2" src="https://github.com/user-attachments/assets/3ac2ae6e-e76a-4b79-acae-f6288283408d" />
+
 
 Interactive SQL Instance You can use the embedded DB Fiddle below to easily access these example datasets - this interactive session has everything you need to start solving these questions using SQL. You can click on the Edit on DB Fiddle link on the top right hand corner of the embedded session below and it will take you to a fully functional SQL editor where you can write your own queries to analyse the data. You can feel free to choose any SQL dialect you’d like to use, the existing Fiddle is using PostgreSQL 13 as default. Serious SQL students will have access to the same relevant schema SQL and example solutions which they can use with their Docker setup from within the course player!
 
@@ -43,15 +46,7 @@ Downgrade Analysis: Identified how many customers downgraded from the Pro Monthl
 
 🏆 A-B-C-D Section Solutions In addition to the general analysis, I successfully tackled the A-B-C Sections of the project:
 
-7_B
-
-8_B
-
 A Section: Compared the success rates of different subscription plans by grouping customer data effectively. B Section: Analyzed the trend of subscription cancellations over time, providing strategic insights into customer churn. C Section: Explored correlations between metrics such as upgrades, downgrades, and cancellation tendencies, helping to better understand customer behavior. D Section:Identified business strategies to reduce customer churn and improve retention, focusing on key growth metrics, customer journey analysis, and personalized engagement campaigns to enhance long-term success.
-
-9_B
-
-10_B
 
 📊 Insights & Learnings This project gave me valuable insights into the subscription dynamics on the Foodie-Fi platform. Key findings include:
 
