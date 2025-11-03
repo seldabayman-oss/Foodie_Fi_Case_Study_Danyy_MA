@@ -1,6 +1,9 @@
 ## Case Study #3 - Foodie-Fi /Danny MA · May 18, 2021
 
-63386b11-8142-400c-92cc-65b9677c63d5
+
+<img width="796" height="400" alt="374071231-5d931578-e434-4350-a0fb-0a60ee7e5ca8" src="https://github.com/user-attachments/assets/626816ae-754b-4cbd-9bc3-889e8ad334da" />
+
+
 
 Introduction Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows! Danny finds a few smart friends to launch his new startup Foodie-Fi in 2020 and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world! Danny created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. This case study focuses on using subscription style digital data to answer important business questions.
 
